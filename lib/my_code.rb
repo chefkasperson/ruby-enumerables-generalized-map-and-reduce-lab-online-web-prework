@@ -11,5 +11,12 @@ def map(array)
 end
 
 def reduce(array, x = nil)
-  
+  if x 
+    total = x
+    i = 0 
+  else
+    total = array[0]
+    i = 1
 end
+while i < array.length
+  
